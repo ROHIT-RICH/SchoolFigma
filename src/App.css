@@ -1,0 +1,145 @@
+.gap {
+    gap: 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-darkk{
+    color: #56548C !important;
+}
+
+
+
+.margine{
+    margin-left: 100px;
+    margin-right: 200px !important;
+}
+
+Button{
+    border-radius: 33px !important;
+}
+
+.btn{
+    font-size: 13px;
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .menu{
+        display: block;
+    }
+    .menu button{
+        color: black;
+    }
+    .menu button svg{
+        font-size: 25px;
+    }
+    .css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+        width: 100% !important;
+        background: #ffffff9b !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.logo-img {
+    height: 40px;
+}
+
+
+.hero-section {
+    background-color: #eaf9ee;
+}
+
+/* .text-secondary{
+    width: 60% !important;
+} */
+
+.hero-img {
+    max-height: 300px;
+}
+
+.font {
+    font-size: 48px;
+}
+
+
+.feature-icon {
+    height: 40px;
+}
+
+
+.course-thumb {
+    height: 15rem;
+    width: 17rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.text-muted {
+    font-weight: 600;
+}
+
+/* @media (max-width: 1399px) {
+    .course-thumb {
+        height: 240px;
+        width: 320px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .course-thumb {
+        height: 220px;
+        width: 280px;
+    }
+} */
+
+
+.mb {
+    margin-bottom: 100px !important;
+}
+
+.test-img {
+    object-fit: cover;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #444;
+}
+
+.bg-dark{
+    background-color: #282531 !important;
+}
+
+footer ul li {
+  margin-bottom: 6px;
+}
+
+footer h6 {
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 0.95rem;
+}
