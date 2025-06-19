@@ -77,7 +77,7 @@ const App = () => {
       {/* Hero Section */}
       <div className='container'>
         <section className="row d-flex justify-content-center align-items-center bg-light py-5 px-5 hero-section">
-          <div className="col-md-6 text-center text-md-start">
+          <div className="col-md-5 text-center text-md-start">
             <p className="text-success fw-medium">Are you ready to learn?</p>
             <h2 className="display-5 fw-bold font">
               Learn With fun <br /> on <span className="text-success">any schedule</span>
@@ -87,8 +87,8 @@ const App = () => {
             </p>
             <button className="btn btn-success mt-3">Get Started</button>
           </div>
-          <div className="col-md-6 text-center">
-            <img src="/hero-img.png" alt="Learning" className="img-fluid hero-img" />
+          <div className="col-md-7 text-center">
+            <img src="/hero-img.png" alt="Learning" className="img-fluid w-100" />
           </div>
         </section>
 
